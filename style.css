@@ -1,0 +1,113 @@
+
+ @charset "UTF-8";
+ @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+ @font-face {
+        font-family: 'Robosin';
+        src: url(pacote-projeto-d010/fontes/idroid.otf); 
+    }
+ 
+ body {
+    background-color: #7180bbc0;
+    margin: 0px;
+    
+ }
+
+ header {
+    background-image: linear-gradient(to bottom, rgba(63, 82, 156, 0.753), #202845);
+    margin: 0px;
+    padding: 0px 0px 3px 0px;
+ }
+
+ header > h1 {
+    height: 30px;
+    text-align: center;
+    margin: 0px;
+    color: white;
+    text-shadow: 2px 1px 3px rgba(0, 0, 0, 0.230);
+    font-family: 'Bebas Neue', sans-serif;
+    }
+ 
+ header > p {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.664);
+    text-shadow: 2px 1px 4px rgba(0, 0, 0);
+    font-weight: bold;
+
+ }
+
+ nav > a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    padding: 5px 5px 3px 5px;
+ }
+ nav > a:hover {
+    background-color: rgba(85, 105, 185, 0.555);
+    text-decoration: underline;
+    color: hsl(180, 90%, 40%);
+    border-radius: 3px;
+ }
+
+ main {
+   width: 600px;
+   padding: 8px;
+   margin: auto;
+   background-color: white;   
+ }
+ article > h1 {
+   font-size: 1.8em;
+   color: hsl(227, 37%, 35%);
+   font-family: 'Robosin', sans-serif;
+ }
+article > h2 {
+   font-size: 1.4em;
+   font-family: 'Robosin', sans-serif;
+   background-image: linear-gradient(to right, hsla(228, 100%, 75%, 0.663), white 75%);
+   color: hsl(227, 37%, 35%);
+}
+
+.link {
+   background-image: linear-gradient(to right, hsla(228, 100%, 75%, 0.336), hsla(228, 100%, 75%, 0.247));
+   padding: 2px;
+}
+main#video {
+   background-image: linear-gradient(to bottom,hsl(228, 36%, 50%), #445491 );
+   margin: auto;
+}
+
+
+ footer {
+   background-color: white;
+   margin: auto;
+   width: 600px;
+   padding: 8px;
+ }
+ div {
+   background-color: hsla(228, 35%, 85%, 0.753);
+   border-radius: 10px;
+ }
+ div > h2 {
+   background-color: #445491;
+   color: white;
+   text-shadow: 2px 1px 5px rgba(0, 0, 0, 0.863);
+   border-radius: 10px 10px 0px 0px;
+   padding: 4px;
+   font-size: 1.2em;
+ }
+
+ .marcado {
+   color: #0033ffc9;
+   text-decoration: none;
+   font-weight: 500;
+ }
+
+ a {
+   text-decoration: none;
+   color: #0033ffc9;
+   background-image: linear-gradient();
+ }
+
+main > a::after {
+   content: '📎';
+ }
+ 
